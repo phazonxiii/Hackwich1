@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		98FA2323278D0E6400B4B023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FA2321278D0E6400B4B023 /* Main.storyboard */; };
 		98FA2325278D0E6800B4B023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FA2324278D0E6800B4B023 /* Assets.xcassets */; };
 		98FA2328278D0E6800B4B023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FA2326278D0E6800B4B023 /* LaunchScreen.storyboard */; };
+		98FA2330278D13AA00B4B023 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FA232F278D13AA00B4B023 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		98FA2324278D0E6800B4B023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FA2327278D0E6800B4B023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FA2329278D0E6800B4B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FA232F278D13AA00B4B023 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		98FA231A278D0E6400B4B023 /* Hackwich1 */ = {
 			isa = PBXGroup;
 			children = (
+				98FA232F278D13AA00B4B023 /* Storyboard.storyboard */,
 				98FA231B278D0E6400B4B023 /* AppDelegate.swift */,
 				98FA231D278D0E6400B4B023 /* SceneDelegate.swift */,
 				98FA231F278D0E6400B4B023 /* ViewController.swift */,
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 98FA2313278D0E6400B4B023 /* Build configuration list for PBXProject "Hackwich1" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FA2328278D0E6800B4B023 /* LaunchScreen.storyboard in Resources */,
+				98FA2330278D13AA00B4B023 /* Storyboard.storyboard in Resources */,
 				98FA2325278D0E6800B4B023 /* Assets.xcassets in Resources */,
 				98FA2323278D0E6400B4B023 /* Main.storyboard in Resources */,
 			);
